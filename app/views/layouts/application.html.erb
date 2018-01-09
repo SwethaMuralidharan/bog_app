@@ -9,9 +9,22 @@
   </head>
 
   <body>
+
     <div class="container">
       <div class="row">
-        <div class="col m6 offset-m3">
+          <div class="col m12">
+          <nav>
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo">Bog App</a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="/creatures#index">Home</a></li>
+                <li><a href="/creatures/new">Create</a></li>
+                <li><a href="#">Edit</a></li>
+              </ul>
+            </div>
+          </nav>
+          </div>
+          <div class="col m6 offset-m3">
           <%= yield %>
         </div>
       </div>
